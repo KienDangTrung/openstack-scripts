@@ -39,7 +39,7 @@ openstack endpoint create --region RegionOne \
 
 echocolor "Install GLANCE"
 sleep 5
-apt-get -y install glance-api
+apt-get -y install glance-api glance-registry
 
 echocolor "Configuring GLANCE API"
 sleep 5
