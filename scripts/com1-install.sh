@@ -132,7 +132,7 @@ rm /var/lib/nova/nova.sqlite
 echocolor "Install neutron-linuxbridge-agent (neutron) on COMPUTE NODE"
 sleep 5
 
-apt-get -y install neutron-openvswitch-agent-agent
+apt-get -y install neutron-openvswitch-agent
 
 ######## Backup configuration NEUTRON.CONF ##################"
 echocolor "Config NEUTRON"
